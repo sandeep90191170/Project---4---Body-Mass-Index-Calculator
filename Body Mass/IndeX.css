@@ -1,0 +1,41 @@
+.main_container_calculator {width:1300px; margin:auto;}
+.heading {width:100%; float:left; background-color:#91FF93;}
+.heading h1 {font-family:Candara; text-align:center;}
+.heading span {color:#2C7ABA;}
+
+
+.under_heading {width:25%; float:left; background-color:#fff; border:2px solid #2C7ABA; margin:0 0 0 490px; border-radius:20px;}
+
+.gender {width:100%; float:left; margin:-17px 0 0 90px;}
+.gender input {background-color:#A0E3F5; margin:0 50px 0 0;}
+
+#male {margin:0 0 0 10px;}
+#female {margin:0 0 0 10px;}
+
+.age {width:60%; float:left;}
+
+.age h4 {margin:-21px 0 0 65px; width:10%; font-weight:500; font-family:Candara;}
+.age input {background-color:#A0E3F5; margin:10px 0 0 10px; width:40px; border-radius:10px; background-color:A0E3F5;}
+
+.main_height_weight {width:100%; float:left;}
+
+
+.height {width:50%; float:left;}
+.height h4 {margin:-21px 0 0 70px; font-weight:500; font-family:Candara;}
+.height input {margin:20px 0 0 10px; background-color:#A0E3F5; width:40px; border-radius:10px;}
+
+.weight {width:50%; float:left;}
+.weight h4 {margin:-21px 0 0 70px; font-weight:500; font-family:Candara;}
+.weight input {margin:20px 0 0 10px; background-color:#A0E3F5; width:40px; border-radius:10px;}
+
+.calculate {width:33%; float:left; border-radius:8px; background-color:blue; color:#fff; margin:50px 0 30px 110px;}
+
+
+.result {width:100%; float:left;}
+.result p {color:green; margin:0 0 0 120px; vertical-align:middle;}
+
+#result {margin:0 0 0 140px;}
+
+/* .comment {display:none; border:dashed 1px; border-radius:7px; padding:25px;} */
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Body Mass Calculator</title>
+<link rel="stylesheet" href="IndeX.css">
+
+
+</head>
+<body>
+		<div class="main_container_calculator">
+			<div class="heading">
+				<h1><span>B</span>ody <span>M</span>ass <span>I</span>ndex Calculator</h1>
+				
+				<div class="under_heading">
+				<div class="age">
+					<input type="number" id="age"></input>
+					<h4>Age</h4>
+					
+					<div class="gender">
+					<input type="radio" name="gender" id="female">Female</input>
+					<input type="radio" name="gender" id="male">Male</input>
+				</div>
+				
+				</div>
+				
+				
+				<div class="main_height_weight">
+				<div class="height">
+					<input type="number" id="height"></input>
+					<h4>Height (cm)</h4>
+					</div>
+					
+					<div class="weight">
+					<input type="number" id="weight"></input>
+					<h4>Weight (kg)</h4>
+					</div>
+					
+				</div>
+				
+				
+					<button class="calculate" id="submit" onclick="calculate();">Submit</button>
+					
+					<div class="result">
+					<p>Your BMI is</p>
+					
+					<div id="result">00.00</div>
+						<p class="comment"></p>
+				</div>
+				
+				</div>
+				
+				
+				</div>
+				
+				
+			</div>
+			
+			<div id="myModal" class="modal">
+			
+			<div class="modal-content">
+			<span class="close">&times;</span>
+			<p id="modalText"></p>
+			</div>
+			</div>
+			
+			
+<script src="IndeX.js"></script>			
+		
+</body>
+</html>
